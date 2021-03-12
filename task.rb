@@ -7,7 +7,6 @@ def q1
   # 以下に回答を記載
   names << ("斎藤")
   p names
-
 end
 
 def q2
@@ -18,7 +17,6 @@ def q2
   array1 << (array2)
   array1.flatten!
   p array1
-
 end
 
 def q3
