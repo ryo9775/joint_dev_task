@@ -207,7 +207,7 @@ end
 class Item
   # 以下を修正して下さい
   attr_reader :name
-  def initialize(name)
+  def initialize(name:)
     @name = name
   end
 end
@@ -227,7 +227,6 @@ class Zoo
   # 以下に回答を記載
 
 end
-
 
 def q20
   # ここは変更しないで下さい（動物園・ユーザー情報は変更していただいてOKです）
